@@ -1,11 +1,5 @@
----
-title: Welcome to Growhub
-nav_order: 1
----
+# Welcome to Growhub Docs
 
-# 🌱 Growhub Docs
+This is the official documentation site for Growhub.
 
-Welcome to the Growhub documentation!
-
-- [Using Growhub](usage.md)
-- [Features](features.md)
+Use the sidebar to browse features, usage, and more.
