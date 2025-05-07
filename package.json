@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vdeijk.github.io/",
+  "homepage": "https://vdeijk.github.io/growhubSite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
