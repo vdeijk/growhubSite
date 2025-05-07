@@ -5,9 +5,6 @@ on:
     branches:
       - master
 
-permissions:
-  contents: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -30,7 +27,7 @@ jobs:
       # Step 4: Build the app
       - name: Build the app
         env:
-          VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
+          VITE_BASENAME: /growhubSite/
         run: npm run build
 
       # Step 5: Deploy to GitHub Pages
