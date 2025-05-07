@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/growhubSite/',
+  base: import.meta.env.VITE_BASENAME || '/',
   plugins: [react()],
   build: {
     outDir: 'dist',
