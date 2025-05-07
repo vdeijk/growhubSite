@@ -1,0 +1,35 @@
+:root {
+    --color-primary: #4caf50;
+    --color-primary-hover: #3e8e41;
+    --color-form-field: #c8e6c9;
+    --color-background: #eafbea;
+    --color-grey: #f0f0f0;
+    --color-grey-hover: #dcdcdc;
+    --color-white-hover: #c8e6c9;
+    --color-border: #ddd;
+    --color-text: #595959;
+    --color-tertiary: #197278;
+    --color-red: #ef767a;
+    --color-red-hover: #d6454a;
+    --color-yellow: #ec971f;
+    --color-yellow-hover: #d17b14;
+    --color-white: #fdfdfd;
+    --color-white-opacity: rgba(253, 253, 253, 0.93);
+    --color-white-rgb: 255, 255, 255;
+    --color-black: #222;
+    --color-disabled: #b0d6b1;
+    --color-primary-rgb: 76, 175, 80; /* Example RGB values for primary color */
+  
+    --font-primary: 'Poppins', sans-serif;
+  
+    --spacing-small: 1rem;
+    --spacing-medium: 2rem;
+  
+    --border-radius-small: 4px;
+    --border-radius-large: 8px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+  }

@@ -1,0 +1,27 @@
+.customButton {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(var(--color-primary-rgb), 0.8);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.customButton:hover {
+  background-color: rgba(var(--color-primary-rgb), 0.8);
+}
+
+.small {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: var(--border-radius-small);
+}
+
+.large {
+  font-size: 2rem;
+  padding: 1.5rem 4.5rem;
+  border-radius: var(--border-radius-large);
+}

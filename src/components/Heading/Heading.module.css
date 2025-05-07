@@ -1,0 +1,37 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: var(--color-white);
+  line-height: 1;
+  z-index: 10;
+}
+
+.h1 {
+  font-size: 10.5rem;
+  font-family: PPWoodland-Regular, sans-serif;
+}
+
+.h2 {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.h3 {
+  color: var(--color-primary);
+}
+
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.h6 {
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 100%;
+}

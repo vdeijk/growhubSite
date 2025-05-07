@@ -1,0 +1,26 @@
+.menuItem {
+  margin-bottom: var(--spacing-small);
+}
+
+.menuLink {
+  background-color: transparent;
+  border: none;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 0.5rem var(--spacing-small);
+  border-radius: var(--border-radius-small);
+  transition: background-color 0.3s;
+}
+
+.menuLink:hover {
+  background-color: var(--color-text);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--color-text);
+  color: var(--color-white);
+}
