@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from './MenuLink.module.css';;
-import { useLocation } from 'react-router-dom';
-import { observer } from 'mobx-react-lite';
+import React from "react";
+import styles from "./MenuLink.module.css";
+import { useLocation, Link } from "react-router-dom";
+import { observer } from "mobx-react-lite";
 
 interface MenuLinkProps {
   to: string;
@@ -13,18 +13,16 @@ const MenuLink: React.FC<MenuLinkProps> = observer(({ to, children }) => {
 
   const isActive = location.pathname === to;
 
-  const clickHandler = () => {
-    // Add navigation logic here if needed
-  };
-
   return (
     <li className={styles.menuItem}>
-      <button
-        onClick={clickHandler}
-        className={`${styles.menuLink} ${isActive ? styles.active : ''}`}
+      <Link
+        to={to}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`${styles.menuLink} ${isActive ? styles.active : ""}`}
       >
         {children}
-      </button>
+      </Link>
     </li>
   );
 });

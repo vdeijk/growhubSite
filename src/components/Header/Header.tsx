@@ -51,9 +51,7 @@ const Header = () => {
         </Heading>
         <Button
           size={"large"}
-          onClick={() =>
-            (window.location.href = "https://vdeijk.github.io/growhub/")
-          }
+          href="https://vdeijk.github.io/growhub/"
         >
           Try it for free
         </Button>
