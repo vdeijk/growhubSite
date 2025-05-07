@@ -5,7 +5,7 @@ import "../variables.css";
 import App from "./App";
 import { HashRouter } from "react-router-dom";
 
-const basename = import.meta.env.VITE_BASENAME || '/';
+const basename = '/growhubSite';
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

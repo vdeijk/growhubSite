@@ -27,12 +27,8 @@ jobs:
       # Step 4: Build the app
       - name: Build the app
         env:
-          VITE_BASENAME: ${{ secrets.VITE_BASENAME }}
+          VITE_BASENAME: /growhubSite
         run: npm run build
-
-      # Step 4.1: Debug VITE_BASENAME
-      - name: Debug VITE_BASENAME
-        run: echo "VITE_BASENAME is $VITE_BASENAME"
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
