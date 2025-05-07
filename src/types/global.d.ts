@@ -24,7 +24,9 @@ declare module '*.woff2' {
 }
 
 interface ImportMetaEnv {
+  readonly MODE: string;
   readonly VITE_BASENAME: string;
+  readonly VITE_BASE_URL: string;
   // Add other environment variables here if needed
 }
 
