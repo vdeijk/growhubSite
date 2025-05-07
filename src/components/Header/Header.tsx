@@ -14,7 +14,6 @@ const Header = () => {
   const duration = 5000;
 
   const nextImage = () => {
-    console.log("Next image triggered ", images[activeIndex]);
     setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
@@ -50,7 +49,12 @@ const Header = () => {
         >
           Your New Farming Companion
         </Heading>
-        <Button size={"large"} onClick={() => window.location.href = "https://vdeijk.github.io/growhub/"}>
+        <Button
+          size={"large"}
+          onClick={() =>
+            (window.location.href = "https://vdeijk.github.io/growhub/")
+          }
+        >
           Try it for free
         </Button>
       </div>

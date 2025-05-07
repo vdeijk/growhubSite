@@ -14,5 +14,3 @@ createRoot(document.getElementById("root")!).render(
     </HashRouter>
   </StrictMode>
 );
-
-console.log("test");
