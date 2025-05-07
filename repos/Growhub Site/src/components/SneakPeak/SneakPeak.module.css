@@ -1,0 +1,11 @@
+.sneakPeakSection {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}

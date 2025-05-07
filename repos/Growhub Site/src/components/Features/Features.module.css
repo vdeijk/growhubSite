@@ -1,0 +1,23 @@
+.featuresSection {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 4rem 4rem 4rem;
+}
+
+.card {
+  background-color: var(--color-grey);
+  padding: 2rem;
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  display: grid;
+  align-items: center;
+  height: 100%;
+}
+
+.card p {
+  margin-top: 2rem;
+}

@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  justify-content: space-between;
+  grid-auto-flow: column;
+  align-items: center;
+  background-color: rgba(var(--color-white-rgb), 0.8) !important;
+  padding: .5rem 2rem;
+  z-index: 1000;
+  height: max-content;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: grid;
+  grid-gap: 1rem;
+  grid-auto-flow: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
