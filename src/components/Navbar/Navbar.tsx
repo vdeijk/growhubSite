@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = () => {
         <MenuLink to="#pricing">Pricing</MenuLink>
         <MenuLink to="#contact">Contact</MenuLink>
       </ul> */}
-      <Button size={"small"} onClick={() => console.log("Login clicked")}>
+      <Button size={"small"} onClick={() => window.location.href = "https://vdeijk.github.io/growhub/"}>
         Login
       </Button>
     </nav>

@@ -50,7 +50,7 @@ const Header = () => {
         >
           Your New Farming Companion
         </Heading>
-        <Button size={"large"} onClick={() => console.log("Button clicked")}>
+        <Button size={"large"} onClick={() => window.location.href = "https://vdeijk.github.io/growhub/"}>
           Try it for free
         </Button>
       </div>
