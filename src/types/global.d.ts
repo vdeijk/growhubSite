@@ -22,3 +22,13 @@ declare module '*.woff2' {
   const value: string;
   export default value;
 }
+
+interface ImportMetaEnv {
+  readonly VITE_BASENAME: string;
+  readonly VITE_BASE_URL: string;
+  // Add other environment variables here if needed
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
